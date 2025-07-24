@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded',()=>{
                 let datos="";
                 for (let ciudad of ciudades ){
                     if (ciudad.poblacion >= habitantes){
-                        datos+="<tr><td>"+ ciudad.ciudad+"</td><td>"+ ciudad.poblacion +"<td></tr>";
+                        datos+="<tr><td>"+ ciudad.ciudad+"</td><td>"+ ciudad.poblacion +" habitantes. <td></tr>";
                     }
                 }
                     document.getElementById('datos').innerHTML =datos;

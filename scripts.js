@@ -1,4 +1,4 @@
-const url="https://papayawhip-octopus-853800.hostingersite.com/ciudades.json";
+const url="https://ferqueve.github.io/pruebafetch/ciudades.json";
 
 document.addEventListener('DOMContentLoaded',()=>{
 
